@@ -1,12 +1,10 @@
 # The Codenote
-## Project Milestone 3 — Accessible & Designed
-
-**Current status:** In progress — visual design documentation added; contact form and final verification pending.
+## Project Milestone 2 — Styled & Responsive
 
 **Developer:** Jason Marsden  
 **Project:** The Codenote — Personal Portfolio Website  
 **Course:** Web Development  
-**Last updated:** November 15, 2026  
+**Date:** November 1, 2026  
 **Technologies:** HTML5, CSS3, Git, GitHub, GitHub Pages
 
 ---
@@ -21,13 +19,15 @@ The website features a Death Note-inspired design,
 combining custom typography, dark colors, animations,
 and responsive layouts.
 
-Milestone 2 established the site's styling and responsive layouts across desktop, tablet, and mobile devices. Homework 4 introduced accessibility fixes. Milestone 3 builds on that work with intentional Gestalt design, contrast verification, and an accessible contact form.
+Project Milestone 2 focuses on improving the website's
+visual appearance, CSS styling, and responsiveness
+across desktop, tablet, and mobile devices.
 
 ---
 
 ## Project Objectives
 
-The objectives of the earlier styling and responsive milestone were to:
+The primary objectives of Project Milestone 2 were to:
 
 - Implement an external CSS stylesheet.
 - Establish a consistent visual design.
@@ -68,43 +68,7 @@ development projects and technical accomplishments.
 
 ---
 
-## Milestone 3 Development Log — November 15, 2026
-
-### Accessibility work carried forward from Homework 4
-
-- **Heading order:** Corrected heading hierarchy to improve document structure for assistive technologies.
-- **Image description:** Replaced the ambiguous reference to Kira with a description identifying Light Yagami from Death Note.
-- **Redundant navigation:** Removed unnecessary duplicate links, including the separate Home link when the logo already navigates home, and current-page links on the About and Projects pages.
-
-These changes were made during Homework 4; a new WAVE scan of all three pages is still needed after the Milestone 3 form is added.
-
-### Visual Design — Gestalt Principles
-
-**1. Proximity:** I used proximity to group related elements, including the logo, site title, and navigation in the header. Spacing and borders separate the welcome section from other content, making the page easier to scan.
-
-**2. Similarity:** I used similarity through consistent typography, navigation styling, gray borders, and repeated colors across the Home, About, and Projects pages. These recurring design elements help visitors recognize the same website as they navigate.
-
-### Color Palette and Contrast
-
-The Death Note-inspired palette uses black backgrounds (`#000000`), white text (`#ffffff`), and gray borders (`#555555`). The navigation hover uses dark red (`#9b1c31`), and the footer hover uses muted green (`#6f9b82`).
-
-**Contrast verification pending:** White on black meets WCAG AA, but the existing dark-red navigation hover text against black does not meet the 4.5:1 minimum for normal text. The red can remain as a decorative accent, but interactive text needs a passing foreground/background combination before final submission. Verify all text/background states with the WebAIM Contrast Checker.
-
-### Accessible Contact Form — Planned
-
-Add a contact form to `about.html` with explicitly associated `label` elements, appropriate `fieldset` and `legend` grouping, keyboard accessibility, and programmatically associated validation errors. Because GitHub Pages hosts static sites, form submission or message delivery requires a separate service or backend if that behavior is desired.
-
-### Final Submission — Pending
-
-- [ ] Complete and test the accessible contact form.
-- [ ] Verify all text/background combinations against WCAG AA.
-- [ ] Run WAVE on Home, About, and Projects after the changes and resolve every error.
-- [ ] Update this README with actual final fixes and testing results.
-- [ ] Commit and push the finished site and submit the final GitHub repository URL.
-
----
-
-## Milestone 2 Development Log — November 1, 2026
+## Development Log — November 1, 2026
 
 ### 1. Responsive Header Improvements
 
@@ -387,4 +351,4 @@ for future development of The Codenote.
 ---
 
 **Developed by Jason Marsden**  
-**Last updated November 15, 2026**
+**November 1, 2026**
